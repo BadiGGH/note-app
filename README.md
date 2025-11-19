@@ -20,7 +20,6 @@ A simple RESTful API for managing notes, built with go and gin framework. Suppor
 
 - Go 1.18+ installed
 - MySQL or compatible database running
-- `swag` CLI installed for Swagger docs generation (optional)
 
 ### Installation
 
@@ -32,7 +31,7 @@ cd note-app
 ```
 
 2. Set up your database and run the SQL schema in `/databse/note.sql`
-
+ 
 3. Create the `.env` file with default values from `.example.env` file.(Change the values if you need to)
 
 ```bash
@@ -48,5 +47,6 @@ go run main.go
 5. Visit `/swagger/index.html` and see the API documentation
 
 ---
+
 
 
