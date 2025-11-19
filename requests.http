@@ -1,0 +1,28 @@
+### Get all notes
+GET http://localhost:5623/notes
+Accept: application/json
+
+### Get a note by ID
+GET http://localhost:5623/notes/1
+Accept: application/json
+
+### Create a new note
+POST http://localhost:5623/notes/new
+Content-Type: application/json
+
+{
+  "title": "My API note",
+  "author": "GGH",
+  "body": "Created via REST Client"
+}
+
+### Update a note
+PATCH http://localhost:5623/notes/1
+Content-Type: application/json
+
+{
+  "body": "from REST Client"
+}
+
+### Delete a note by ID
+DELETE http://localhost:5623/notes/
