@@ -31,7 +31,7 @@ git clone https://github.com/BadiGGH/note-app.git
 cd note-app
 ```
 
-2. Set up the database and run the SQL schema in `/databse/note.sql`
+2. Set up your database and run the SQL schema in `/databse/note.sql`
 
 3. Create the `.env` file with default values from `.example.env` file.(Change the values if you need to)
 
@@ -44,3 +44,9 @@ cp .example.env .env
 ```bash
 go run main.go
 ```
+
+5. Visit `/swagger/index.html` and see the API documentation
+
+---
+
+
