@@ -14,3 +14,33 @@ A simple RESTful API for managing notes, built with go and gin framework. Suppor
 
 ---
 
+## Getting Started
+
+### Prerequisites
+
+- Go 1.18+ installed
+- MySQL or compatible database running
+- `swag` CLI installed for Swagger docs generation (optional)
+
+### Installation
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/BadiGGH/note-app.git
+cd note-app
+```
+
+2. Set up the database and run the SQL schema in `/databse/note.sql`
+
+3. Create the `.env` file with default values from `.example.env` file.(Change the values if you need to)
+
+```bash
+cp .example.env .env
+```
+
+4. Run the code
+
+```bash
+go run main.go
+```
